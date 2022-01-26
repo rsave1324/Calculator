@@ -1,0 +1,14 @@
+com\endava\calculator\basic\BasicOperations.class
+com\endava\extensions\TestReporterExtensionFailsafe.class
+com\endava\apache\Log4jExample.class
+com\endava\apache\StringWithCommonLang3.class
+com\endava\apache\DBConnection.class
+com\endava\google\Payment.class
+com\endava\calculator\basic\Basic.class
+com\endava\apache\FileReadWithCommonsIO.class
+com\endava\calculator\expert\Expert.class
+com\endava\calculator\expert\ExpertOperations.class
+com\endava\google\GsonExample.class
+com\endava\extensions\TestReporterExtension.class
+com\endava\jackson\JacksonExample.class
+com\endava\listener\CustomTestExecutionListener.class

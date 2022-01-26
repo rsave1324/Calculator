@@ -1,0 +1,1134 @@
+2022-01-21 10:09:18,687 ERROR c.e.a.Log4jExample [main] Doing something with Eminescu
+2022-01-21 10:41:25,929 INFO c.e.g.GsonExample [main] {"amount":100.0,"currency":"EUR","cardNumber":"736","customerName":"Joe"}
+2022-01-21 10:41:38,195 INFO c.e.g.GsonExample [main] {"amount":100.0,"currency":"EUR","cardNumber":"1234567890","customerName":"Joe"}
+2022-01-21 10:46:03,946 INFO c.e.g.GsonExample [main] {
+  "amount": 100.0,
+  "currency": "EUR",
+  "cardNumber": "1234567890",
+  "customerName": "Joe"
+}
+2022-01-21 10:46:58,646 INFO c.e.g.GsonExample [main] 
+ {
+  "amount": 100.0,
+  "currency": "EUR",
+  "cardNumber": "1234567890",
+  "customerName": "Joe"
+}
+2022-01-21 10:49:32,982 INFO c.e.g.GsonExample [main] 
+ {
+  "amount": 100.0,
+  "currency": "EUR",
+  "cardNumber": "1234567890",
+  "customerName": "Joe"
+}
+2022-01-21 10:49:58,468 INFO c.e.g.GsonExample [main] 
+ {
+  "amount": 100.0,
+  "currency": "EUR",
+  "cardNumber": "1234567890",
+  "customerName": "Joe"
+}
+2022-01-21 10:49:58,472 INFO c.e.g.GsonExample [main] true
+2022-01-21 11:00:22,825 INFO c.e.g.GsonExample [main] 
+ {
+  "amount": 100.0,
+  "currency": "EUR",
+  "cardNumber": "1234567890",
+  "customerName": "Joe"
+}
+2022-01-21 11:00:22,830 INFO c.e.g.GsonExample [main] true
+2022-01-21 11:00:28,697 INFO c.e.j.JacksonExample [main] {"amount":100.0,"currency":"EUR","cardNumber":"1234567890","customerName":"Joe"}
+2022-01-21 11:02:03,083 INFO c.e.j.JacksonExample [main] {"amount":100.0,"currency":"EUR","cardNumber":"1234567890","customerName":"Joe"}
+2022-01-21 11:02:03,125 INFO c.e.j.JacksonExample [main] true
+2022-01-21 12:04:11,340 INFO c.e.a.DBConnection [main] com.mysql.cj.jdbc.result.ResultSetImpl@3cc41abc
+2022-01-21 12:19:32,445 INFO c.e.a.DBConnection [main] com.mysql.cj.jdbc.result.ResultSetImpl@3cc41abc
+2022-01-21 12:19:32,451 INFO c.e.a.DBConnection [main] 1 George
+2022-01-21 12:19:32,452 INFO c.e.a.DBConnection [main] 2 Betty
+2022-01-21 12:19:32,452 INFO c.e.a.DBConnection [main] 3 Eduardo
+2022-01-21 12:19:32,453 INFO c.e.a.DBConnection [main] 4 Harold
+2022-01-21 12:19:32,453 INFO c.e.a.DBConnection [main] 5 Peter
+2022-01-21 12:19:32,453 INFO c.e.a.DBConnection [main] 6 Jean
+2022-01-21 12:19:32,454 INFO c.e.a.DBConnection [main] 7 Jeff
+2022-01-21 12:19:32,454 INFO c.e.a.DBConnection [main] 8 Maria
+2022-01-21 12:19:32,455 INFO c.e.a.DBConnection [main] 9 David
+2022-01-21 12:19:32,455 INFO c.e.a.DBConnection [main] 10 Carlos
+2022-01-21 12:22:04,539 INFO c.e.a.DBConnection [main] com.mysql.cj.jdbc.result.ResultSetImpl@3a1dd365
+2022-01-21 12:22:04,543 INFO c.e.a.DBConnection [main] 5 Peter
+2022-01-21 12:22:05,579 INFO c.e.a.DBConnection [main] com.mysql.cj.jdbc.result.ResultSetImpl@3cc41abc
+2022-01-21 12:22:05,586 INFO c.e.a.DBConnection [main] 5 Peter
+2022-01-26 10:52:51,742 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 10:52:51,748 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 10:52:51,763 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 10:52:51,764 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 10:52:51,766 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 10:52:51,766 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 10:52:51,768 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 10:52:51,768 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 10:52:51,771 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers()
+2022-01-26 10:52:51,771 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers()
+2022-01-26 10:52:51,772 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 10:52:51,773 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 11:42:09,437 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:42:09,442 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:42:09,457 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 11:42:09,460 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 11:42:09,463 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:42:09,463 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:42:09,469 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 11:42:09,472 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 11:42:09,476 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers()
+2022-01-26 11:42:09,478 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers()
+2022-01-26 11:42:09,481 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 11:42:09,482 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 11:54:03,397 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:54:03,402 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:54:03,416 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:54:03,416 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:54:03,418 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 11:54:03,418 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 11:54:37,581 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:54:37,589 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:54:37,605 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:54:37,605 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:55:48,804 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:55:48,811 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 11:55:48,823 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:55:48,823 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 11:55:48,825 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 11:55:48,826 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 12:06:19,676 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 12:06:19,691 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 12:06:19,704 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 12:06:19,705 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0()
+2022-01-26 12:06:19,706 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 12:06:19,708 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 12:07:18,440 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 12:07:18,444 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 12:14:32,693 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 0, 2
+2022-01-26 12:14:32,736 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 0, 2
+2022-01-26 12:14:32,759 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 0
+2022-01-26 12:14:32,760 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 0
+2022-01-26 12:55:18,330 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] numberSource.csv
+2022-01-26 12:55:18,368 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] numberSource.csv
+2022-01-26 13:02:22,484 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:02:22,513 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:02:22,535 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:02:22,537 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:05:34,964 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:05:34,994 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:05:35,012 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:05:35,014 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:05:35,016 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[3] 6, 7, 8
+2022-01-26 13:05:35,017 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[3] 6, 7, 8
+2022-01-26 13:10:03,840 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:10:03,867 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:10:03,882 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:10:03,883 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:10:03,955 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[3] 1, 2, 3
+2022-01-26 13:10:03,955 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[3] 1, 2, 3
+2022-01-26 13:10:03,957 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[4] 2, 4, 5
+2022-01-26 13:10:03,958 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[4] 2, 4, 5
+2022-01-26 13:10:03,962 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[5] 6, 7, 8
+2022-01-26 13:10:03,963 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[5] 6, 7, 8
+2022-01-26 13:48:52,428 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers()
+2022-01-26 13:48:52,436 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers()
+2022-01-26 13:48:52,445 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 13:48:52,445 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 13:48:52,449 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 13:48:52,449 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 13:48:52,482 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 0, 2
+2022-01-26 13:48:52,507 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 0, 2
+2022-01-26 13:48:52,515 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 0
+2022-01-26 13:48:52,515 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 0
+2022-01-26 13:48:52,519 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 13:48:52,519 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 13:48:52,542 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:48:52,542 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:48:52,546 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:48:52,546 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:48:52,562 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[3] 1, 2, 3
+2022-01-26 13:48:52,659 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[3] 1, 2, 3
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[4] 2, 4, 5
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[4] 2, 4, 5
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[5] 6, 7, 8
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[5] 6, 7, 8
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 0, 2
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 0, 2
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 0
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 0
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:48:52,663 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2, 3
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 4, 5
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[3] 1, 2, 3
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[3] 1, 2, 3
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[4] 2, 4, 5
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[4] 2, 4, 5
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[5] 6, 7, 8
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[5] 6, 7, 8
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNumber()
+2022-01-26 13:48:52,679 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNumber()
+2022-01-26 13:48:52,694 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 13:48:52,694 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 13:48:52,694 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers()
+2022-01-26 13:48:52,694 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers()
+2022-01-26 13:48:52,694 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenNoNumbers()
+2022-01-26 13:48:52,694 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenNoNumbers()
+2022-01-26 14:27:54,273 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers()
+2022-01-26 14:27:54,289 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers()
+2022-01-26 14:27:54,299 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 14:27:54,299 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers()
+2022-01-26 14:27:54,299 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 14:27:54,299 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenNoNumbers()
+2022-01-26 14:27:54,339 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 0, 2
+2022-01-26 14:27:54,376 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 0, 2
+2022-01-26 14:27:54,388 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 0
+2022-01-26 14:27:54,388 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 0
+2022-01-26 14:27:54,392 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 14:27:54,392 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers()
+2022-01-26 14:27:54,429 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2, 3
+2022-01-26 14:27:54,429 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2, 3
+2022-01-26 14:27:54,433 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 4, 5
+2022-01-26 14:27:54,433 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 4, 5
+2022-01-26 14:27:54,536 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[3] 1, 2, 3
+2022-01-26 14:27:54,537 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[3] 1, 2, 3
+2022-01-26 14:27:54,537 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[4] 2, 4, 5
+2022-01-26 14:27:54,537 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[4] 2, 4, 5
+2022-01-26 14:27:54,541 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[5] 6, 7, 8
+2022-01-26 14:27:54,541 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[5] 6, 7, 8
+2022-01-26 14:27:54,545 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 0, 2
+2022-01-26 14:27:54,545 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 0, 2
+2022-01-26 14:27:54,549 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 0
+2022-01-26 14:27:54,549 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 0
+2022-01-26 14:27:54,549 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2
+2022-01-26 14:27:54,549 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2
+2022-01-26 14:27:54,553 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 1
+2022-01-26 14:27:54,553 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 1
+2022-01-26 14:27:54,561 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[1] 1, 2, 3
+2022-01-26 14:27:54,561 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[1] 1, 2, 3
+2022-01-26 14:27:54,566 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[2] 2, 4, 5
+2022-01-26 14:27:54,566 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[2] 2, 4, 5
+2022-01-26 14:27:54,570 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[3] 1, 2, 3
+2022-01-26 14:27:54,574 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[3] 1, 2, 3
+2022-01-26 14:27:54,580 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[4] 2, 4, 5
+2022-01-26 14:27:54,580 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[4] 2, 4, 5
+2022-01-26 14:27:54,584 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/[5] 6, 7, 8
+2022-01-26 14:27:54,584 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/[5] 6, 7, 8
+2022-01-26 14:27:54,584 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNumber()
+2022-01-26 14:27:54,584 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNumber()
+2022-01-26 14:27:54,584 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 14:27:54,588 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOneNumber()
+2022-01-26 14:27:54,588 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers()
+2022-01-26 14:27:54,588 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers()
+2022-01-26 14:27:54,588 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenNoNumbers()
+2022-01-26 14:27:54,588 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenNoNumbers()
+2022-01-26 16:12:39,277 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenTwoNegativeNumbers()]
+2022-01-26 16:12:39,277 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenTwoNegativeNumbers()]
+2022-01-26 16:12:39,292 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenTwoNegativeNumbers()]
+2022-01-26 16:12:39,292 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenTwoNegativeNumbers()]
+2022-01-26 16:12:39,292 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenNoNumbers()]
+2022-01-26 16:12:39,292 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenNoNumbers()]
+2022-01-26 16:12:39,303 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand0(double,double)]
+2022-01-26 16:12:39,337 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand0(double,double)]
+2022-01-26 16:12:39,343 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand0(double,double)]
+2022-01-26 16:12:39,343 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand0(double,double)]
+2022-01-26 16:12:39,343 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand1(double,double)]
+2022-01-26 16:12:39,343 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand1(double,double)]
+2022-01-26 16:12:39,343 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand1(double,double)]
+2022-01-26 16:12:39,343 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand1(double,double)]
+2022-01-26 16:12:39,352 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,353 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,353 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,353 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,368 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,368 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,368 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,368 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOneNumber()]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOneNumber()]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenTwoLongNumbers()]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenTwoLongNumbers()]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,430 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,446 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,451 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,452 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,454 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,454 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,455 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,456 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,457 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber()]
+2022-01-26 16:12:39,457 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber()]
+2022-01-26 16:12:39,458 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenTwoNegativeNumbers()]
+2022-01-26 16:12:39,460 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenTwoNegativeNumbers()]
+2022-01-26 16:12:39,461 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenTwoLongNumbers()]
+2022-01-26 16:12:39,461 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenTwoLongNumbers()]
+2022-01-26 16:12:39,463 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,463 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,465 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,465 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand0(int,int)]
+2022-01-26 16:12:39,467 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand1(int,int)]
+2022-01-26 16:12:39,467 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand1(int,int)]
+2022-01-26 16:12:39,468 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand1(int,int)]
+2022-01-26 16:12:39,469 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand1(int,int)]
+2022-01-26 16:12:39,469 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenNoNumbers()]
+2022-01-26 16:12:39,470 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenNoNumbers()]
+2022-01-26 16:12:39,472 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,472 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,473 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,474 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,480 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,481 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,483 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,484 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,485 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,485 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:12:39,486 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOneNumber()]
+2022-01-26 16:12:39,486 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOneNumber()]
+2022-01-26 16:12:39,487 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOneNumber()]
+2022-01-26 16:12:39,487 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOneNumber()]
+2022-01-26 16:12:39,488 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenTwoLongNumbers()]
+2022-01-26 16:12:39,488 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenTwoLongNumbers()]
+2022-01-26 16:12:39,489 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenNoNumbers()]
+2022-01-26 16:12:39,489 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenNoNumbers()]
+2022-01-26 16:13:28,659 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 16:13:28,659 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenTwoNegativeNumbers()]
+2022-01-26 16:13:28,659 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 16:13:28,659 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenTwoNegativeNumbers()]
+2022-01-26 16:13:28,659 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers
+2022-01-26 16:13:28,659 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenNoNumbers()]
+2022-01-26 16:13:28,674 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:13:28,702 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand0(double,double)]
+2022-01-26 16:13:28,708 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:13:28,709 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand0(double,double)]
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand1(double,double)]
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOperand1(double,double)]
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOperand0(int,int)]
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 16:13:28,712 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOperand0(int,int)]
+2022-01-26 16:13:28,729 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:28,729 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,729 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:28,729 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,748 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:28,748 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,749 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:28,750 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,793 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:28,793 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,793 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOneNumber
+2022-01-26 16:13:28,793 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenOneNumber()]
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenTwoLongNumbers()]
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,808 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:28,824 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,825 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 16:13:28,825 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber()]
+2022-01-26 16:13:28,825 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 16:13:28,828 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenTwoNegativeNumbers()]
+2022-01-26 16:13:28,828 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 16:13:28,828 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenTwoLongNumbers()]
+2022-01-26 16:13:28,830 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:13:28,830 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand0(int,int)]
+2022-01-26 16:13:28,831 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:13:28,831 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand0(int,int)]
+2022-01-26 16:13:28,833 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:13:28,833 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand1(int,int)]
+2022-01-26 16:13:28,834 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:13:28,835 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOperand1(int,int)]
+2022-01-26 16:13:28,835 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenNoNumbers
+2022-01-26 16:13:28,836 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldApplyPowerGivenNoNumbers()]
+2022-01-26 16:13:28,838 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:28,839 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,840 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:28,840 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenManyNumbers(int,int,int)]
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenOneNumber()]
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldAddNumberGivenOneNumber()]
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenTwoLongNumbers()]
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 16:13:28,844 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/Optional[public void com.endava.calculator.test.CalculatorTest.shouldMultiplyNumberGivenNoNumbers()]
+2022-01-26 16:13:48,041 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 16:13:48,043 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 16:13:48,043 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 16:13:48,043 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 16:13:48,043 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers
+2022-01-26 16:13:48,043 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenNoNumbers
+2022-01-26 16:13:48,059 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:13:48,091 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:13:48,095 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:13:48,096 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:13:48,099 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:13:48,099 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:13:48,101 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:13:48,101 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:13:48,104 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 16:13:48,105 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 16:13:48,106 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 16:13:48,106 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 16:13:48,109 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,109 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,109 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,109 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOneNumber
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOneNumber
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,176 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:13:48,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenNoNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenNoNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOneNumber
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 16:13:48,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 16:13:48,219 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 16:13:48,219 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 16:15:04,924 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:15:04,954 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:15:04,954 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:15:04,954 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 16:15:16,768 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:15:16,776 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:15:16,793 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:15:16,793 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 16:15:25,076 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 16:15:25,076 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 16:15:45,413 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 16:15:45,417 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 16:15:51,171 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 16:15:51,174 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 16:16:12,226 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 16:16:12,241 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 16:16:21,666 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,693 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,706 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,706 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,774 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,774 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,774 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,774 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,774 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:21,774 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 16:16:41,002 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 16:16:41,002 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 16:16:47,714 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 16:16:47,718 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 16:19:39,738 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:19:39,763 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:19:39,773 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:19:39,773 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 16:20:10,555 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:20:10,571 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:20:10,590 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:20:10,591 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 16:21:12,202 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 16:21:12,208 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 16:22:04,957 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 16:22:04,962 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 16:23:48,453 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumbers
+2022-01-26 16:23:48,453 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumbers
+2022-01-26 16:23:57,277 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 16:23:57,277 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 16:25:12,200 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 16:25:12,203 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 16:30:32,753 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenOperand0
+2022-01-26 16:30:32,753 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenOperand0
+2022-01-26 16:30:38,903 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenOperand1
+2022-01-26 16:30:38,913 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenOperand1
+2022-01-26 16:30:45,935 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenTwoLongNumbers
+2022-01-26 16:30:45,942 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenTwoLongNumbers
+2022-01-26 16:31:06,070 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:31:06,070 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:31:16,632 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:31:16,648 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:31:24,666 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:31:24,666 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:32:21,281 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:32:21,281 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:32:29,081 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:32:29,081 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:32:38,165 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 16:32:38,180 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 17:00:43,259 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:00:43,264 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:00:43,286 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:00:43,298 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:00:43,303 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:00:43,303 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:00:43,305 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:00:43,305 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:02:25,241 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:02:25,246 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:02:25,272 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:02:25,286 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:02:25,290 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:02:25,290 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:02:25,292 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:02:25,292 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:11:09,457 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:11:09,457 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:11:09,457 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:11:09,473 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:11:09,473 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:11:09,473 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:11:09,492 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:11:09,508 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:11:09,509 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:11:09,525 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:11:09,525 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:11:09,525 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:11:09,525 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:11:09,542 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,542 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,542 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,542 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,557 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,557 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,557 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,557 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:11:09,608 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:11:09,624 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:11:09,640 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:11:09,640 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:11:09,640 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:11:09,640 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:11:09,640 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:11:09,642 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:11:19,540 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:11:19,540 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:11:19,571 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:11:19,584 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:11:19,589 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:11:19,589 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:11:19,590 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:11:19,591 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:15:31,089 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:15:31,093 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:15:31,113 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:15:31,113 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:15:31,129 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:15:31,129 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:15:31,129 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:15:31,129 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:16:04,676 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:16:04,678 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:16:04,703 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:16:04,705 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:16:04,705 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:16:04,705 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 17:16:04,721 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:16:04,721 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:22:01,597 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:01,597 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:01,597 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:01,597 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:01,597 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:22:01,613 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:22:01,629 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:01,636 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:01,636 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:01,636 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:01,636 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:01,651 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:22:01,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:22:01,668 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,668 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,668 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,668 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,690 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,691 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,752 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,753 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,755 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,755 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:01,756 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:22:01,757 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:22:01,757 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:22:01,758 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:22:01,758 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:22:01,759 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:22:01,760 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:01,760 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:01,761 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:01,762 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:01,763 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:01,763 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:01,764 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:01,764 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:01,766 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,767 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:22:01,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:22:38,697 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:38,701 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:38,706 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:38,706 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:22:38,707 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:22:38,708 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:22:38,719 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:38,735 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:22:38,737 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:22:38,752 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:22:38,752 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:22:38,752 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:22:38,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,819 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,819 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,819 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,819 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,819 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,819 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:22:38,835 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,836 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:22:38,852 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:23:52,596 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:23:52,599 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:23:52,601 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:23:52,601 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:23:52,601 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:23:52,601 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:23:52,617 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:23:52,633 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:23:52,649 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:23:52,649 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:23:52,650 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:23:52,652 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:23:52,653 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:23:52,653 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:23:52,667 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,667 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,667 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,667 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:23:52,734 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:23:52,750 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:23:52,750 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:23:52,752 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:23:52,753 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:23:52,754 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:23:52,755 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:23:52,755 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:23:52,756 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:23:52,758 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,758 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,759 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,759 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,764 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,765 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,766 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,766 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,767 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,767 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:23:52,768 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:31:54,528 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:31:54,528 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 17:31:54,544 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:31:54,545 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 17:31:54,546 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:31:54,547 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 17:31:54,561 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:31:54,564 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 17:31:54,579 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:31:54,595 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 17:31:54,595 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:31:54,595 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 17:31:54,611 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,611 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,613 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,613 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,657 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,657 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,657 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,657 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,657 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,657 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 17:31:54,673 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:31:54,673 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 17:31:54,673 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:31:54,674 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 17:31:54,675 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:31:54,675 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 17:31:54,677 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:31:54,677 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:31:54,678 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:31:54,678 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 17:31:54,680 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:31:54,680 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:31:54,681 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:31:54,681 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 17:31:54,684 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,684 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,685 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,685 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,691 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,691 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,692 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,692 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,694 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,694 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 17:31:54,695 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 17:31:54,696 INFO c.e.e.TestReporterExtensionFailsafe [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 18:16:54,011 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 18:16:54,016 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 18:16:54,028 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 18:16:54,028 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 18:16:54,028 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 18:16:54,028 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenNoNumbers
+2022-01-26 18:16:54,049 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 18:16:54,065 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 18:16:54,069 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 18:16:54,069 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+2022-01-26 18:16:54,073 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 18:16:54,073 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 18:16:54,077 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 18:16:54,077 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+2022-01-26 18:16:54,081 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 18:16:54,081 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 18:16:54,081 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 18:16:54,081 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+2022-01-26 18:16:54,085 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 18:16:54,085 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 18:16:54,089 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 18:16:54,089 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 18:16:54,109 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,113 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,113 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,113 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,178 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,178 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,178 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,178 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,185 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,185 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:16:54,188 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 18:16:54,188 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 18:16:54,188 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 18:16:54,188 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 18:16:54,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 18:16:54,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 18:16:54,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:16:54,196 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:16:54,196 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:16:54,196 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:16:54,200 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:16:54,200 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:16:54,200 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:16:54,200 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:16:54,205 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,209 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,209 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,209 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,225 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,235 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,239 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,239 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,239 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,243 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+2022-01-26 18:16:54,243 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 18:16:54,243 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyFactGivenLongNumber
+2022-01-26 18:16:54,243 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 18:16:54,243 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2022-01-26 18:16:54,248 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 18:16:54,248 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 18:16:54,248 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 18:16:54,248 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand0
+2022-01-26 18:16:54,248 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 18:16:54,252 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldApplyFactGivenOperand1
+2022-01-26 18:16:54,252 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 18:16:54,252 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldAddNumberGivenOneNumber
+2022-01-26 18:16:54,252 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 18:16:54,252 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 18:16:54,256 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 18:16:54,256 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 18:18:06,969 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:06,969 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:06,985 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:06,985 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:06,985 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers
+2022-01-26 18:18:06,985 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenNoNumbers
+2022-01-26 18:18:07,021 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:07,038 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:07,042 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:07,042 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:07,046 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:07,050 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:07,054 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:07,054 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:07,058 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:07,058 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:07,058 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:07,062 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:07,062 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 18:18:07,066 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 18:18:07,066 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 18:18:07,070 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 18:18:07,098 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,098 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,098 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,098 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,192 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,192 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,196 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,196 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,201 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,205 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:07,209 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 18:18:07,209 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 18:18:07,209 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 18:18:07,209 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 18:18:07,213 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 18:18:07,213 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 18:18:07,217 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:07,218 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:07,218 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:07,222 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:07,226 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:07,226 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:07,230 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:07,230 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:07,230 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,234 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,234 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,234 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,242 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,242 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,242 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,246 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,249 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,249 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:07,249 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 18:18:07,249 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 18:18:07,253 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 18:18:07,253 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 18:18:07,253 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 18:18:07,253 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 18:18:07,253 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenOperand0
+2022-01-26 18:18:07,253 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenOperand0
+2022-01-26 18:18:07,257 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenOperand1
+2022-01-26 18:18:07,257 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenOperand1
+2022-01-26 18:18:07,261 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber
+2022-01-26 18:18:07,261 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOneNumber
+2022-01-26 18:18:07,261 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 18:18:07,261 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 18:18:07,261 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 18:18:07,261 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 18:18:41,398 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:41,402 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:41,402 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:41,402 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoNegativeNumbers
+2022-01-26 18:18:41,402 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenNoNumbers
+2022-01-26 18:18:41,402 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenNoNumbers
+2022-01-26 18:18:41,434 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:41,458 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:41,466 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:41,466 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand0
+2022-01-26 18:18:41,470 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:41,470 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:41,474 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:41,474 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenOperand1
+2022-01-26 18:18:41,474 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:41,478 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:41,478 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:41,478 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOperand0
+2022-01-26 18:18:41,478 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 18:18:41,482 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenExpNegativeNumber
+2022-01-26 18:18:41,482 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 18:18:41,482 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenTwoLongNumbers
+2022-01-26 18:18:41,502 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,502 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,502 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,502 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,569 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,585 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,585 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenManyNumbers
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoNegativeNumbers
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 18:18:41,590 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenTwoLongNumbers
+2022-01-26 18:18:41,607 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:41,608 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:41,610 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:41,610 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand0
+2022-01-26 18:18:41,611 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:41,611 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:41,615 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:41,615 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOperand1
+2022-01-26 18:18:41,619 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,623 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,623 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,623 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,631 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,631 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,635 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,635 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,640 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,640 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenManyNumbers
+2022-01-26 18:18:41,640 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 18:18:41,640 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenLongNumber
+2022-01-26 18:18:41,640 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 18:18:41,640 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenOneNumber
+2022-01-26 18:18:41,644 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 18:18:41,644 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyPowerGivenBaseNegativeNumber
+2022-01-26 18:18:41,644 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenOperand0
+2022-01-26 18:18:41,644 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenOperand0
+2022-01-26 18:18:41,644 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldApplyFactGivenOperand1
+2022-01-26 18:18:41,648 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldApplyFactGivenOperand1
+2022-01-26 18:18:41,648 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldAddNumberGivenOneNumber
+2022-01-26 18:18:41,648 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldAddNumberGivenOneNumber
+2022-01-26 18:18:41,648 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 18:18:41,648 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenTwoLongNumbers
+2022-01-26 18:18:41,652 INFO c.e.e.TestReporterExtension [main] Starting test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
+2022-01-26 18:18:41,652 INFO c.e.e.TestReporterExtension [main] Finishing test CalculatorTest/shouldMultiplyNumberGivenNoNumbers
