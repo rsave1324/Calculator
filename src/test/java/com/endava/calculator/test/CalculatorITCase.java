@@ -14,6 +14,10 @@ import org.junit.jupiter.params.provider.MethodSource;
 import java.util.ArrayList;
 import java.util.List;
 
+import static org.hamcrest.MatcherAssert.assertThat;
+import static org.hamcrest.Matchers.*;
+import static org.hamcrest.Matchers.is;
+
 @ExtendWith(TestReporterExtension.class)
 public class CalculatorITCase {
 
@@ -43,25 +47,18 @@ public class CalculatorITCase {
     @Tags({@Tag("smoke"), @Tag("ui")})
     @ParameterizedTest
     @MethodSource("numberProvider0")
-    public void shouldAddNumberGivenOperand0(int a, int b) {
+    public void shouldAddNumberGivenOperand0(int a, int b, long expected) {
         // WHEN
         long result = expertCalculator.add(a, b);
 
         // THEN
-        System.out.println(result);
+        assertThat(result, is(expected));
     }
 
     public static List<Arguments> numberProvider0() {
         List<Arguments> argumentsList = new ArrayList<>();
-        argumentsList.add(Arguments.of(0, 2));
-        argumentsList.add(Arguments.of(2, 0));
-        return argumentsList;
-    }
-
-    public static List<Arguments> numberProvider1() {
-        List<Arguments> argumentsList = new ArrayList<>();
-        argumentsList.add(Arguments.of(1, 2));
-        argumentsList.add(Arguments.of(2, 1));
+        argumentsList.add(Arguments.of(0, 2, 2L));
+        argumentsList.add(Arguments.of(2, 0, 2L));
         return argumentsList;
     }
 
@@ -72,7 +69,7 @@ public class CalculatorITCase {
         long result = expertCalculator.add(-2, -4);
 
         // THEN
-        System.out.println(result);
+        assertThat(result, is(-6L));
     }
 
     @Tags({@Tag("smoke"), @Tag("api")})
@@ -82,18 +79,20 @@ public class CalculatorITCase {
         long result = expertCalculator.add(Integer.MAX_VALUE, 1);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(Integer.MAX_VALUE + 1L));
+        assertThat(result, greaterThan(0L));
+        assertThat(result, notNullValue());
     }
 
     @ParameterizedTest
-    @CsvSource( {"1,2,3", "2,4,5"} )
+    @CsvSource( {"1,2,3,6", "2,4,5,11"} )
     @CsvFileSource(resources = "numberSource.csv")
-    public void shouldAddNumberGivenManyNumbers(int a, int b, int c) {
+    public void shouldAddNumberGivenManyNumbers(int a, int b, int c, long expected) {
         // WHEN
         long result = expertCalculator.add(a,b,c);
 
         // THEN
-        System.out.println(result);
+        assertThat(result, is(expected));
     }
 
     @Test
@@ -102,7 +101,7 @@ public class CalculatorITCase {
         long result = expertCalculator.add();
 
         // THEN
-        System.out.println(result);
+        assertThat(result, is(0L));
     }
 
     @Test
@@ -111,29 +110,35 @@ public class CalculatorITCase {
         long result = expertCalculator.add(2);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(2L));
     }
 
     /*=================================== Multiply ===================================*/
 
-    @ParameterizedTest
-    @MethodSource("numberProvider0")
-    public void shouldMultiplyNumberGivenOperand0(int a, int b) {
+    @Test
+    public void shouldMultiplyNumberGivenOperand0() {
         // WHEN
-        long result = expertCalculator.multiply(a, b);
+        long result = expertCalculator.multiply(2,0);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(0L));
     }
 
     @ParameterizedTest
     @MethodSource("numberProvider1")
-    public void shouldMultiplyNumberGivenOperand1(int a, int b) {
+    public void shouldMultiplyNumberGivenOperand1(int a, int b, long expected) {
         // WHEN
         long result = expertCalculator.multiply(a, b);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(expected));
+    }
+
+    public static List<Arguments> numberProvider1() {
+        List<Arguments> argumentsList = new ArrayList<>();
+        argumentsList.add(Arguments.of(1, 2, 2L));
+        argumentsList.add(Arguments.of(2, 1, 2L));
+        return argumentsList;
     }
 
     @Test
@@ -142,7 +147,7 @@ public class CalculatorITCase {
         long result = expertCalculator.multiply(-2, -4);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(8L));
     }
 
     @Test
@@ -151,7 +156,7 @@ public class CalculatorITCase {
         long result = expertCalculator.multiply(2, -4);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(-8L));
     }
 
     @Test
@@ -160,18 +165,16 @@ public class CalculatorITCase {
         long result = expertCalculator.multiply(Integer.MAX_VALUE, 2);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(4294967294L));
     }
 
-    @ParameterizedTest
-    @CsvSource( {"1,2,3", "2,4,5"} )
-    @CsvFileSource(resources = "numberSource.csv")
-    public void shouldMultiplyNumberGivenManyNumbers(int a, int b, int c) {
+    @Test
+    public void shouldMultiplyNumberGivenManyNumbers() {
         // WHEN
-        long result = expertCalculator.multiply(a,b,c);
+        long result = expertCalculator.multiply(2,3,4);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(24L));
     }
 
     @Test
@@ -180,7 +183,7 @@ public class CalculatorITCase {
         long result = expertCalculator.multiply();
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(1L));
     }
 
     @Test
@@ -189,29 +192,43 @@ public class CalculatorITCase {
         long result = expertCalculator.multiply(2);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(2L));
     }
 
     /*=================================== Power ===================================*/
 
     @ParameterizedTest
-    @MethodSource("numberProvider0")
-    public void shouldApplyPowerGivenOperand0(double a, double b) {
+    @MethodSource("numberProviderPower0")
+    public void shouldApplyPowerGivenOperand0(double a, double b, double expected) {
         // WHEN
         double result = expertCalculator.pow(a, b);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(expected));
+    }
+
+    public static List<Arguments> numberProviderPower0() {
+        List<Arguments> argumentsList = new ArrayList<>();
+        argumentsList.add(Arguments.of(0, 2, 0));
+        argumentsList.add(Arguments.of(2, 0, 1));
+        return argumentsList;
     }
 
     @ParameterizedTest
-    @MethodSource("numberProvider1")
-    public void shouldApplyPowerGivenOperand1(double a, double b) {
+    @MethodSource("numberProviderPower1")
+    public void shouldApplyPowerGivenOperand1(double a, double b, double expected) {
         // WHEN
         double result = expertCalculator.pow(a, b);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(expected));
+    }
+
+    public static List<Arguments> numberProviderPower1() {
+        List<Arguments> argumentsList = new ArrayList<>();
+        argumentsList.add(Arguments.of(1, 2, 1));
+        argumentsList.add(Arguments.of(2, 1, 2));
+        return argumentsList;
     }
 
     @Test
@@ -220,7 +237,7 @@ public class CalculatorITCase {
         double result = expertCalculator.pow(-2, -4);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(0.0625));
     }
 
     @Test
@@ -229,7 +246,7 @@ public class CalculatorITCase {
         double result = expertCalculator.pow(-2, 4);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(16.0));
     }
 
     @Test
@@ -238,7 +255,7 @@ public class CalculatorITCase {
         double result = expertCalculator.pow(2, -2);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(0.25));
     }
 
     @Test
@@ -247,7 +264,7 @@ public class CalculatorITCase {
         double result = expertCalculator.pow(Integer.MAX_VALUE, 2);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(4.6116860141324206E18));
     }
 
     /*=================================== Fact ===================================*/
@@ -258,7 +275,7 @@ public class CalculatorITCase {
         long result = expertCalculator.factRec(0);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(1L));
     }
 
     @Test
@@ -267,7 +284,7 @@ public class CalculatorITCase {
         long result = expertCalculator.factRec(1);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(1L));
     }
 
     @Test
@@ -276,6 +293,6 @@ public class CalculatorITCase {
         long result = expertCalculator.factRec(20);
 
         // THEN
-        System.out.println(result);
+        assertThat(result,is(2432902008176640000L));
     }
 }

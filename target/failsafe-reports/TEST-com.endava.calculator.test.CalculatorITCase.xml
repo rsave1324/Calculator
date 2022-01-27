@@ -1,0 +1,427 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-failsafe-plugin/xsd/failsafe-test-report-3.0.xsd" version="3.0" name="com.endava.calculator.test.CalculatorITCase" time="0.231" tests="36" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="sun.desktop" value="windows"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.specification.version" value="11"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\RSave\IdeaProjects\mavenCalculator\target\test-classes;C:\Users\RSave\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\RSave\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\RSave\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\RSave\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\RSave\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;C:\Users\RSave\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\RSave\.m2\repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;C:\Users\RSave\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\RSave\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RSave\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\RSave\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\RSave\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\RSave\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="java.vm.vendor" value="Azul Systems, Inc."/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="http://www.azul.com/"/>
+    <property name="user.timezone" value="Europe/Athens"/>
+    <property name="java.vm.specification.version" value="11"/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="US"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Zulu\zulu-11\bin"/>
+    <property name="sun.java.command" value="org.apache.maven.surefire.booter.ForkedBooter C:\Users\RSave\AppData\Local\Temp\surefire3641293737648530616 2022-01-27T11-12-46_206-jvmRun1 surefire4980743098761147184tmp surefire_014914222148787759588tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\RSave\IdeaProjects\mavenCalculator\target\test-classes;C:\Users\RSave\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\RSave\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\RSave\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\RSave\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\RSave\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;C:\Users\RSave\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\RSave\.m2\repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;C:\Users\RSave\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\RSave\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RSave\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\RSave\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\RSave\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\RSave\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\RSave"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.module.path" value="C:\Users\RSave\IdeaProjects\mavenCalculator\target\mavenCalculator-1.0-SNAPSHOT.jar"/>
+    <property name="java.version.date" value="2021-10-19"/>
+    <property name="java.home" value="C:\Program Files\Zulu\zulu-11"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\RSave\IdeaProjects\mavenCalculator"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="jdk.vendor.version" value="Zulu11.52+13-CA"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="surefire.real.class.path" value="C:\Users\RSave\.m2\repository\org\apache\maven\surefire\surefire-booter\3.0.0-M5\surefire-booter-3.0.0-M5.jar;C:\Users\RSave\.m2\repository\org\apache\maven\surefire\surefire-api\3.0.0-M5\surefire-api-3.0.0-M5.jar;C:\Users\RSave\.m2\repository\org\apache\maven\surefire\surefire-logger-api\3.0.0-M5\surefire-logger-api-3.0.0-M5.jar;C:\Users\RSave\.m2\repository\org\apache\maven\surefire\surefire-shared-utils\3.0.0-M4\surefire-shared-utils-3.0.0-M4.jar;C:\Users\RSave\.m2\repository\org\apache\maven\surefire\surefire-extensions-spi\3.0.0-M5\surefire-extensions-spi-3.0.0-M5.jar;C:\Users\RSave\IdeaProjects\mavenCalculator\target\test-classes;C:\Users\RSave\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\RSave\.m2\repository\org\apache\commons\commons-lang3\3.12.0\commons-lang3-3.12.0.jar;C:\Users\RSave\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.1\log4j-api-2.17.1.jar;C:\Users\RSave\.m2\repository\org\apache\logging\log4j\log4j-core\2.17.1\log4j-core-2.17.1.jar;C:\Users\RSave\.m2\repository\com\google\code\gson\gson\2.8.9\gson-2.8.9.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.13.1\jackson-databind-2.13.1.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.13.1\jackson-annotations-2.13.1.jar;C:\Users\RSave\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.13.1\jackson-core-2.13.1.jar;C:\Users\RSave\.m2\repository\commons-dbutils\commons-dbutils\1.7\commons-dbutils-1.7.jar;C:\Users\RSave\.m2\repository\mysql\mysql-connector-java\8.0.28\mysql-connector-java-8.0.28.jar;C:\Users\RSave\.m2\repository\com\google\protobuf\protobuf-java\3.11.4\protobuf-java-3.11.4.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.8.2\junit-jupiter-api-5.8.2.jar;C:\Users\RSave\.m2\repository\org\opentest4j\opentest4j\1.2.0\opentest4j-1.2.0.jar;C:\Users\RSave\.m2\repository\org\junit\platform\junit-platform-commons\1.8.2\junit-platform-commons-1.8.2.jar;C:\Users\RSave\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.8.2\junit-jupiter-params-5.8.2.jar;C:\Users\RSave\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.8.2\junit-jupiter-engine-5.8.2.jar;C:\Users\RSave\.m2\repository\org\junit\platform\junit-platform-engine\1.8.2\junit-platform-engine-1.8.2.jar;C:\Users\RSave\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\RSave\.m2\repository\org\apache\maven\surefire\surefire-junit-platform\3.0.0-M5\surefire-junit-platform-3.0.0-M5.jar;C:\Users\RSave\.m2\repository\org\apache\maven\surefire\common-java5\3.0.0-M5\common-java5-3.0.0-M5.jar;C:\Users\RSave\.m2\repository\org\junit\platform\junit-platform-launcher\1.8.2\junit-platform-launcher-1.8.2.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="11.0.13+8-LTS"/>
+    <property name="user.name" value="RSave"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="java.vendor.version" value="Zulu11.52+13-CA"/>
+    <property name="localRepository" value="C:\Users\RSave\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="http://www.azul.com/support/"/>
+    <property name="java.io.tmpdir" value="C:\Users\RSave\AppData\Local\Temp\"/>
+    <property name="idea.version" value="2021.3.1"/>
+    <property name="java.version" value="11.0.13"/>
+    <property name="user.dir" value="C:\Users\RSave\IdeaProjects\mavenCalculator"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.library.path" value="C:\Program Files\Zulu\zulu-11\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Zulu\zulu-11\bin\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Git\cmd;C:\Users\RSave\Downloads\apache-maven-3.8.4\bin;C:\Users\RSave\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2021.3.1\bin;;C:\Users\RSave\Downloads\apache-maven-3.8.4\bin;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.vendor" value="Azul Systems, Inc."/>
+    <property name="java.vm.version" value="11.0.13+8-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="55.0"/>
+  </properties>
+  <testcase name="shouldMultiplyNumberGivenTwoNegativeNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0.026">
+    <system-out><![CDATA[Before All
+
+Before Each
+11:12:48.135 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+8
+11:12:48.139 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoNegativeNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenTwoNegativeNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0.002">
+    <system-out><![CDATA[
+Before Each
+11:12:48.146 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+-6
+11:12:48.146 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenTwoNegativeNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenNoNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.147 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenNoNumbers
+0
+11:12:48.148 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenNoNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenOperand0(double, double)[1]" classname="com.endava.calculator.test.CalculatorITCase" time="0.016">
+    <system-out><![CDATA[
+Before Each
+11:12:48.166 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+0.0
+11:12:48.182 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenOperand0(double, double)[2]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.186 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenOperand0
+1.0
+11:12:48.187 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenOperand0
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenOperand1(double, double)[1]" classname="com.endava.calculator.test.CalculatorITCase" time="0.002">
+    <system-out><![CDATA[
+Before Each
+11:12:48.190 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+1.0
+11:12:48.190 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenOperand1(double, double)[2]" classname="com.endava.calculator.test.CalculatorITCase" time="0.002">
+    <system-out><![CDATA[
+Before Each
+11:12:48.192 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenOperand1
+2.0
+11:12:48.193 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenOperand1
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenOperand0(int, int)[1]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.196 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2
+11:12:48.197 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenOperand0(int, int)[2]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.199 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenOperand0
+2
+11:12:48.200 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenOperand0
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenExpNegativeNumber" classname="com.endava.calculator.test.CalculatorITCase" time="0.003">
+    <system-out><![CDATA[
+Before Each
+11:12:48.201 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+0.25
+11:12:48.202 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenExpNegativeNumber
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenTwoLongNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.203 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+2147483648
+11:12:48.204 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenTwoLongNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenManyNumbers(int, int, int)[1]" classname="com.endava.calculator.test.CalculatorITCase" time="0.002">
+    <system-out><![CDATA[
+Before Each
+11:12:48.222 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+6
+11:12:48.223 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenManyNumbers(int, int, int)[2]" classname="com.endava.calculator.test.CalculatorITCase" time="0.002">
+    <system-out><![CDATA[
+Before Each
+11:12:48.226 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+40
+11:12:48.226 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenManyNumbers(int, int, int)[3]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.292 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+6
+11:12:48.292 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenManyNumbers(int, int, int)[4]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.295 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+40
+11:12:48.296 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenManyNumbers(int, int, int)[5]" classname="com.endava.calculator.test.CalculatorITCase" time="0.002">
+    <system-out><![CDATA[
+Before Each
+11:12:48.297 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+336
+11:12:48.298 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber" classname="com.endava.calculator.test.CalculatorITCase" time="0">
+    <system-out><![CDATA[
+Before Each
+11:12:48.300 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+-8
+11:12:48.300 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNegativeNumberAndOnePositiveNumber
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenTwoNegativeNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0">
+    <system-out><![CDATA[
+Before Each
+11:12:48.301 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+0.0625
+11:12:48.301 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenTwoNegativeNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenTwoLongNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0">
+    <system-out><![CDATA[
+Before Each
+11:12:48.302 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+4.6116860141324206E18
+11:12:48.302 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenTwoLongNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenOperand0(int, int)[1]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.303 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+0
+11:12:48.304 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenOperand0(int, int)[2]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.305 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+0
+11:12:48.305 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand0
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenOperand1(int, int)[1]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.306 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2
+11:12:48.307 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenOperand1(int, int)[2]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.307 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+2
+11:12:48.308 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenOperand1
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenManyNumbers(int, int, int)[1]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.313 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+6
+11:12:48.313 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenManyNumbers(int, int, int)[2]" classname="com.endava.calculator.test.CalculatorITCase" time="0">
+    <system-out><![CDATA[
+Before Each
+11:12:48.314 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+11
+11:12:48.314 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenManyNumbers(int, int, int)[3]" classname="com.endava.calculator.test.CalculatorITCase" time="0.003">
+    <system-out><![CDATA[
+Before Each
+11:12:48.318 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+6
+11:12:48.319 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenManyNumbers(int, int, int)[4]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.321 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+11
+11:12:48.321 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenManyNumbers(int, int, int)[5]" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.323 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenManyNumbers
+21
+11:12:48.323 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenManyNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyFactGivenLongNumber" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.324 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyFactGivenLongNumber
+2432902008176640000
+11:12:48.324 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyFactGivenLongNumber
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenOneNumber" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.324 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+2
+11:12:48.324 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenOneNumber
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyPowerGivenBaseNegativeNumber" classname="com.endava.calculator.test.CalculatorITCase" time="0">
+    <system-out><![CDATA[
+Before Each
+11:12:48.325 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+16.0
+11:12:48.325 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyPowerGivenBaseNegativeNumber
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyFactGivenOperand0" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.326 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyFactGivenOperand0
+1
+11:12:48.326 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyFactGivenOperand0
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldApplyFactGivenOperand1" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.326 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldApplyFactGivenOperand1
+1
+11:12:48.327 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldApplyFactGivenOperand1
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldAddNumberGivenOneNumber" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.327 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldAddNumberGivenOneNumber
+2
+11:12:48.327 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldAddNumberGivenOneNumber
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenTwoLongNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0">
+    <system-out><![CDATA[
+Before Each
+11:12:48.328 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+4294967294
+11:12:48.328 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenTwoLongNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+  <testcase name="shouldMultiplyNumberGivenNoNumbers" classname="com.endava.calculator.test.CalculatorITCase" time="0.001">
+    <system-out><![CDATA[
+Before Each
+11:12:48.329 [main] INFO  com.endava.extensions.TestReporterExtension - Starting test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+1
+11:12:48.329 [main] INFO  com.endava.extensions.TestReporterExtension - Finishing test CalculatorITCase/shouldMultiplyNumberGivenNoNumbers
+After Each
+
+]]></system-out>
+  </testcase>
+</testsuite>
